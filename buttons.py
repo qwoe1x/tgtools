@@ -14,7 +14,7 @@ randomizer_again_menu.add(randomizer_again)
 weather = InlineKeyboardButton(text="Погода", callback_data="getweatherinfo")
 money_convert = InlineKeyboardButton(text="Конвертер валют", callback_data="convert_money")
 notice = InlineKeyboardButton(text="Напоминание", callback_data="notice")
-soon = InlineKeyboardButton(text="Soon...", callback_data="soon")
+soon = InlineKeyboardButton(text="Soon..", callback_data="soon")
 choose_tools.add(randomizer, weather, money_convert, notice, soon)
 
 

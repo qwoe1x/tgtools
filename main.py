@@ -69,7 +69,7 @@ async def choose(message: types.Message):
         await bot.send_message(chat_id = message.from_user.id, text=f"В разработке...")
     @dp.callback_query_handler(text="notice")
     async def getweather(message: types.Message):
-        await bot.send_message(chat_id = message.from_user.id, text=f"В разработке...")
+        await bot.send_message(chat_id = message.from_user.id, text=f"В разработке..")
     @dp.callback_query_handler(text="soon")
     async def getweather(message: types.Message):
         await bot.send_message(chat_id = message.from_user.id, text=f"Предложите свои идеи для бота @qwoe1x")
